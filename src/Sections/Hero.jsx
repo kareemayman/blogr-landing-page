@@ -14,7 +14,7 @@ export function Hero() {
                         <div className="logo">
                             <img src={logoImg} alt="logo" />
                         </div>
-                        <HeaderLink>Product</HeaderLink>
+                        <HeaderLink links={["Overview", "Pricing", "Marketplace", "Features", "Integrations"]}>Product</HeaderLink>
                         <HeaderLink>Company</HeaderLink>
                         <HeaderLink>Connect</HeaderLink>
                     </div>

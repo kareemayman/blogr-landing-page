@@ -86,6 +86,62 @@ a {
     justify-content: space-between;
 }
 
+.hero header .container .left {
+    display: flex;
+    align-items: center;
+}
+
+.hero header .left .logo {
+    margin-right: 30px;;
+}
+
+.header-link {
+    display: inline-block;
+    margin-inline: 20px;
+    transition: var(--main-trans);
+    color: #e6e6e6;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+
+.header-link::before {
+    transition: var(--main-trans);
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    /* opacity: 0; */
+}
+
+.header-link::after {
+    content: '\f107';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    font-size: 14px;
+    transition: var(--main-trans);
+    color: #e6e6e6;
+}
+
+.header-link:hover {
+    color: white;
+}
+
+.header-link:hover::after {
+    color: white;
+}
+
+.header-link:hover::before {
+    /* opacity: 1; */
+    width: 100%;
+}
+
 /* Media Queries */
 @media (width < 769px) {
     .desktop {

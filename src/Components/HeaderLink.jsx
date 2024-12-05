@@ -1,5 +1,5 @@
-export function HeaderLink() {
+export function HeaderLink({links, children}) {
 
 
-    return <p>Header Link</p>
+    return <p className="header-link ubuntu">{children}</p>
 }
