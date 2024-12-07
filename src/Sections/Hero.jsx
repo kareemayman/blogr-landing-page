@@ -15,13 +15,13 @@ export function Hero() {
                             <img src={logoImg} alt="logo" />
                         </div>
                         <HeaderLink links={["Overview", "Pricing", "Marketplace", "Features", "Integrations"]}>Product</HeaderLink>
-                        <HeaderLink>Company</HeaderLink>
-                        <HeaderLink>Connect</HeaderLink>
+                        <HeaderLink links={["About", "Team", "Blog", "Careers"]}>Company</HeaderLink>
+                        <HeaderLink links={["Contact", "Newletter", "LinkedIn"]}>Connect</HeaderLink>
                     </div>
 
                     <div className="right">
-                        <a href="#login" className="login">Login</a>
-                        <WhiteButton></WhiteButton>
+                        <a href="#login" className="login ubuntu">Login</a>
+                        <WhiteButton white={true} link={'sign-up'}>Sign Up</WhiteButton>
                     </div>
                 </div>
             </header>

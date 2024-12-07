@@ -1,5 +1,7 @@
-export function WhiteButton() {
-
-
-    return <h1>White Button</h1>
+export function WhiteButton({ link, white, children }) {
+  return (
+    <a href={`#${link}`} className={`white-button ${white ? "bg-white" : "bg-transparent"} ubuntu`}>
+      {children}
+    </a>
+  )
 }
