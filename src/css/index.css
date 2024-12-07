@@ -69,7 +69,7 @@ a {
 
 .hero header, .hero main {
     position: relative;
-    z-index: 999;
+    /* z-index: 999; */
 }
 
 .hero .bg-img {
@@ -143,6 +143,40 @@ a {
     width: 100%;
 }
 
+.header-link .special-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 6px;
+    padding: 30px;
+    transition: var(--main-trans);
+    top: calc(100% + 20px);
+    width: 150px;
+    left: -20px;
+    box-shadow: 5px 0 12px 1px rgba(109, 109, 109, 0.377);
+    opacity: 0;
+    z-index: -11;
+}
+
+.visibility {
+    z-index: 9999 !important;
+    opacity: 1 !important;
+}
+
+.header-link .special-menu a {
+    display: block;
+    color: rgb(73, 73, 73);
+    font-weight: normal;
+    transition: var(--main-trans);
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+.header-link .special-menu a:hover {
+    color: black;
+    text-shadow: 0 0 6px rgba(136, 136, 136, 0.288);
+}
+
 .hero header .right .login {
     display: inline-block;
     margin-inline: 20px;
@@ -191,13 +225,13 @@ a {
 }
 
 .hero main h1 {
-    font-size: 4rem;
+    font-size: 4em;
     margin-bottom: 20px;
 }
 
 .hero main .container h1 + p {
     color: #e6e6e6;
-    font-size: 1.3rem;
+    font-size: 1.3em;
     margin-bottom: 40px;
 }
 
