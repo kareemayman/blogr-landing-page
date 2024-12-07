@@ -152,6 +152,10 @@ a {
     cursor: pointer;
 }
 
+.hero header .right .login:hover {
+    color: white;
+}
+
 .white-button {
     color: var(--Light-red--CTA-text);
     border-radius: 30px;
@@ -177,6 +181,30 @@ a {
 .white-button:hover {
     background-color: var(--Very-light-red-CTA-hover-background);
     color: #e6e6e6;
+}
+
+.hero main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero main h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero main .container h1 + p {
+    color: #e6e6e6;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.hero main .container .flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 /* Media Queries */

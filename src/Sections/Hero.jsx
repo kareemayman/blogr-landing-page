@@ -28,11 +28,11 @@ export function Hero() {
 
             <main>
                 <div className="container">
-                    <h1>A modern publishing platform</h1>
+                    <h1 >A modern publishing platform</h1>
                     <p>Grow your audience and build your online brand</p>
                     <div className="flex">
-                        <WhiteButton></WhiteButton>
-                        <WhiteButton></WhiteButton>
+                        <WhiteButton link={'start'} white={true}>Start for Free</WhiteButton>
+                        <WhiteButton link={'more'}>Learn More</WhiteButton>
                     </div>
                 </div>
             </main>
