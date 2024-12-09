@@ -49,7 +49,7 @@ a {
 
 .container {
     margin-inline: auto;
-    padding-inline: 15px;
+    padding-inline: 30px;
 }
 
 /* Local Rules */
@@ -251,6 +251,23 @@ a {
 
     .hero .bg-img {
         background-image: url('../../images/bg-pattern-intro-mobile.svg');
+    }
+
+    .hero {
+        padding-bottom: 120px;
+        height: fit-content;
+    }
+
+    .hero main h1  {
+        font-size: 2em;
+    }
+
+    .hero main .container h1 + p {
+        font-size: 1.2em;
+    }
+
+    .white-button {
+        padding: 15px;
     }
 }
 
