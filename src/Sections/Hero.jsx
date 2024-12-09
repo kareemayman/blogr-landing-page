@@ -1,6 +1,7 @@
 import logoImg from '../../images/logo.svg'
 import { HeaderLink } from '../Components/HeaderLink'
 import { WhiteButton } from '../Components/WhiteButton'
+import burgerIcon from '../../images/icon-hamburger.svg'
 
 export function Hero() {
 
@@ -20,8 +21,9 @@ export function Hero() {
                     </div>
 
                     <div className="right">
-                        <a href="#login" className="login ubuntu">Login</a>
-                        <WhiteButton white={true} link={'sign-up'}>Sign Up</WhiteButton>
+                        <a href="#login" className="login ubuntu desktop">Login</a>
+                        <WhiteButton white={true} link={'sign-up'} className='desktop'>Sign Up</WhiteButton>
+                        <img src={burgerIcon} alt="burger icon" className='mobile'/>
                     </div>
                 </div>
             </header>

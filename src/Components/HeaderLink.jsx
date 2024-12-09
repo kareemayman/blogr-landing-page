@@ -5,7 +5,7 @@ export function HeaderLink({ links, children }) {
   }
 
   return (
-    <p className="header-link ubuntu" onClick={(e) => handleClick(e)}>
+    <p className="header-link ubuntu desktop" onClick={(e) => handleClick(e)}>
       {children}
       <span className="special-menu">
         {links.map((link) => {

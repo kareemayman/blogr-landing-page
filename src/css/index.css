@@ -227,12 +227,14 @@ a {
 .hero main h1 {
     font-size: 4em;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .hero main .container h1 + p {
     color: #e6e6e6;
     font-size: 1.3em;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .hero main .container .flex {
@@ -244,7 +246,7 @@ a {
 /* Media Queries */
 @media (width < 769px) {
     .desktop {
-        display: none;
+        display: none !important;
     }
 
     .hero .bg-img {
@@ -258,7 +260,7 @@ a {
     }
 
     .mobile {
-        display: none;
+        display: none !important;
     }
 }
 
