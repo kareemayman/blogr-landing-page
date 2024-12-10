@@ -345,6 +345,43 @@ a {
 
 
 /* Media Queries */
+@media (width < 992px) {
+    .state-of-the-art .blue-wrapper {
+        background-image: linear-gradient(var(--Very-dark-gray-blue), var(--Very-dark-desaturated-blue));
+        /* height: 800px; */
+        /* padding: 0; */
+        margin-top: var(--default-padding);
+        margin-bottom: var(--default-padding);
+    }
+
+    .state-of-the-art .blue-wrapper img {
+        position: absolute;
+        width: 150%;
+        left: 50%;
+        top: -40%;
+        translate: -50% 0;
+        z-index: 1;
+    }
+
+    .state-of-the-art .blue-wrapper .container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .state-of-the-art .blue-wrapper .container .article {
+        flex-basis: 50%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .state-of-the-art > .container > img {
+        width: 300px;
+        top: -20%;
+        left: 50%;
+        translate: -50% 0;
+    }
+}
+
 @media (width < 769px) {
     .desktop {
         display: none !important;
