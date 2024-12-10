@@ -21,6 +21,12 @@
     --default-padding: 60px;
 }
 
+::selection {
+    background-color: var(--Very-dark-blue-headings);
+    color: white;
+    /* color: var(--Light-red--CTA-text); */
+}
+
 .overpass {
     font-family: "Overpass", serif;
     font-optical-sizing: auto;
