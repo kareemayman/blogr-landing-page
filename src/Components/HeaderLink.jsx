@@ -16,17 +16,21 @@ export function HeaderLink({ links, children }) {
         // Hide Header Link Menu If It Was Visible
         if (span.classList.contains("visibility")) {
           span.classList.remove("visibility")
+          e.target.classList.remove('rotate')
         } else {
           // Hide All Other Header Link Menus & Showing Menu Related To Header Link Clicked
           spans.forEach((span) => {
             span.classList.remove("visibility")
+            span.closest('.header-link').classList.remove('rotate')
           })
           span.classList.add("visibility")
+          e.target.classList.add('rotate')
         }
         // If User Clicks On Any Thing Else Hide Visibile Header Link Menus
       } else {
         spans.forEach((span) => {
           span.classList.remove("visibility")
+          span.closest('.header-link').classList.remove('rotate')
         })
       }
     }

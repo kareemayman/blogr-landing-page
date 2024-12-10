@@ -110,6 +110,7 @@ a {
     font-weight: 500;
     position: relative;
     cursor: pointer;
+    user-select: none;
 }
 
 .header-link::before {
@@ -167,6 +168,10 @@ a {
 .visibility {
     z-index: 9999 !important;
     opacity: 1 !important;
+}
+
+.rotate::after {
+    rotate: 180deg 0;
 }
 
 .header-link .special-menu a {

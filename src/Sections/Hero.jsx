@@ -34,7 +34,7 @@ export function Hero() {
                     <p>Grow your audience and build your online brand</p>
                     <div className="flex">
                         <WhiteButton link={'start'} white={true}>Start for Free</WhiteButton>
-                        <WhiteButton link={'more'}>Learn More</WhiteButton>
+                        <WhiteButton link={'features'}>Learn More</WhiteButton>
                     </div>
                 </div>
             </main>
