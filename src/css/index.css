@@ -274,6 +274,8 @@ a {
 
 .article {
     margin-top: 70px;
+    font-family: "Overpass", serif;
+    font-optical-sizing: auto;
 }
 
 .article h2 {
@@ -286,6 +288,62 @@ a {
     color: var(--Very-dark-grayish-blue-body-copy);
     line-height: 1.8;
 }
+
+.state-of-the-art {
+    position: relative;
+    background-color: transparent;
+
+}
+
+.state-of-the-art .blue-wrapper {
+    background-image: linear-gradient(to right,var(--Very-dark-gray-blue), var(--Very-dark-desaturated-blue));
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+    padding-top: calc(1.8 * var(--default-padding));
+    padding-bottom: calc(1.8 * var(--default-padding));
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+.state-of-the-art .blue-wrapper img {
+    position: absolute;
+    left: 0;
+    top: -130%;
+    z-index: 1;
+}
+
+.state-of-the-art .blue-wrapper .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.state-of-the-art .blue-wrapper .container .article {
+    flex-basis: 47%;
+    z-index: 2;
+    margin-top: 0;
+
+}
+
+.state-of-the-art > .container > img {
+    position: absolute;
+    z-index: 99999;
+    top: -20%;
+    translate: -10% 0;
+}
+
+.state-of-the-art .blue-wrapper .container .article h2 {
+    color: white;
+    font-size: 2.3rem;
+}
+
+.state-of-the-art .blue-wrapper .container .article p {
+    color: #e6e6e6;
+}
+
+
 /* Media Queries */
 @media (width < 769px) {
     .desktop {
