@@ -8,7 +8,7 @@ export function Features() {
       <div className="container">
         <h1>Designed for the future</h1>
         <img src={illustrationDesktop} alt="editor illustration" className="desktop"/>
-        <img src={illustrationMobile} alt="editor mobile" className="mobile"/>
+        <img src={illustrationMobile} alt="editor illustration" className="mobile"/>
         <div className="article-container">
           <Article title="Introducing an extensible editor">
             Blogr features an exceedingly intuitive interface which lets you

@@ -262,14 +262,14 @@ a {
 
 .features .container .article-container {
     width: 48%;
-    padding-top: var(--default-padding);
-    padding-bottom: var(--default-padding);
+    padding-top: 30px;
+    padding-bottom: 130px;
 }
 
 .features .container img.desktop {
     position: absolute;
-    left: 50%;
-    top: 0;
+    left: 60%;
+    top: -10%;
 }
 
 .article {
