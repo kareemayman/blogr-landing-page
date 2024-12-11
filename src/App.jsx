@@ -5,6 +5,7 @@ import illustrationDesktop from "../images/illustration-editor-desktop.svg"
 import illustrationMobile from "../images/illustration-editor-mobile.svg"
 import laptopDesk from '../images/illustration-laptop-desktop.svg'
 import laptopMob from '../images/illustration-laptop-mobile.svg'
+import { Footer } from "./Sections/Footer"
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         tool that makes customization and deployment a breeze, but capable of producing 
         even the most complicated sites.'
       ></Features>
+      <Footer></Footer>
     </>
   )
 }
