@@ -27,6 +27,23 @@
     /* color: var(--Light-red--CTA-text); */
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e6e6e6;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--Very-dark-desaturated-blue);
+    transition: var(--main-trans);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--Very-dark-blue-headings);
+}
+
 .overpass {
     font-family: "Overpass", serif;
     font-optical-sizing: auto;
