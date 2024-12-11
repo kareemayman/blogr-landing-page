@@ -3,6 +3,8 @@ import { Hero } from "./Sections/Hero"
 import { StateOfTheArt } from "./Sections/StateOfTheArt"
 import illustrationDesktop from "../images/illustration-editor-desktop.svg"
 import illustrationMobile from "../images/illustration-editor-mobile.svg"
+import laptopDesk from '../images/illustration-laptop-desktop.svg'
+import laptopMob from '../images/illustration-laptop-mobile.svg'
 
 function App() {
   return (
@@ -26,6 +28,20 @@ function App() {
             you're in full control."
       ></Features>
       <StateOfTheArt></StateOfTheArt>
+      <Features
+        imgDesk={laptopDesk}
+        imgMob={laptopMob}
+        art1Title='Free, open, simple'
+        art1Parag='Blogr is a free and open source application backed by a large 
+        community of helpful developers. It supports features such as code syntax 
+        highlighting, RSS feeds, social media integration, third-party commenting 
+        tools, and works seamlessly with Google Analytics. The architecture is 
+        clean and is relatively easy to learn.'
+        art2Title='Powerful tooling'
+        art2Parag='Batteries included. We built a simple and straightforward CLI 
+        tool that makes customization and deployment a breeze, but capable of producing 
+        even the most complicated sites.'
+      ></Features>
     </>
   )
 }
