@@ -424,7 +424,7 @@ header .right img {
     left: 50%;
     top: -100dvh;
     translate: -50% 0;
-    box-shadow: 0px 5px 18px 4px rgba(80, 80, 80, 0.349);
+    box-shadow: 0px 5px 26px 5px rgba(65, 65, 65, 0.349);
     padding: 30px;
     display: flex;
     flex-direction: column;
