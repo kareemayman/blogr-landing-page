@@ -425,6 +425,20 @@ header .right img {
     top: 20%;
     translate: -50% 0;
     box-shadow: 0px 5px 18px 4px rgba(80, 80, 80, 0.349);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.mobile-menu .header-link {
+    color: black;
+    font-family: "Overpass", serif;
+}
+
+.mobile-menu .header-link::after {
+    color: var(--Light-red--CTA-text);
 }
 
 .disable-scroll {

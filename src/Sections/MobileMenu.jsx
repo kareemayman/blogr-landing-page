@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { HeaderLink } from "../Components/HeaderLink"
 
 export function MobileMenu() {
 
@@ -24,7 +25,9 @@ export function MobileMenu() {
 
     return (
         <div className="mobile-menu mobile">
-
+            <HeaderLink links={["Overview", "Pricing", "Marketplace", "Features", "Integrations"]}>Product</HeaderLink>
+            <HeaderLink links={["About", "Team", "Blog", "Careers"]}>Company</HeaderLink>
+            <HeaderLink links={["Contact", "Newletter", "LinkedIn"]}>Connect</HeaderLink>
         </div>
     )
 }
