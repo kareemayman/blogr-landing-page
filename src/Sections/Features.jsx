@@ -1,8 +1,8 @@
 import { Article } from "../Components/Article"
 
-export function Features({ title = false, imgDesk, imgMob, art1Title, art1Parag, art2Title, art2Parag }) {
+export function Features({ title = false, imgDesk, imgMob, art1Title, art1Parag, art2Title, art2Parag, id = 'features' }) {
   return (
-    <div className="features overpass" id="features">
+    <div className="features overpass" id={id}>
       <div className="container">
         {title && <h1>{title}</h1>}
         <img src={imgDesk} alt={imgDesk} className="desktop"/>

@@ -42,6 +42,7 @@ function App() {
         art2Parag='Batteries included. We built a simple and straightforward CLI 
         tool that makes customization and deployment a breeze, but capable of producing 
         even the most complicated sites.'
+        id="start"
       ></Features>
       <Footer></Footer>
     </>

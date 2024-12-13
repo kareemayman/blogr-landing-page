@@ -405,6 +405,31 @@ a {
     text-decoration: underline;
 }
 
+.rotate-mobile-menu {
+    rotate: 360deg 0;
+}
+
+header .right img {
+    transition: 0.6s;
+}
+
+.mobile-menu {
+    opacity: 0;
+    transition: var(--main-trans);
+    position: fixed;
+    background-color: white;
+    border-radius: 6px;
+    width: 90%;
+    height: 77dvh;
+    left: 50%;
+    top: 20%;
+    translate: -50% 0;
+    box-shadow: 0px 5px 18px 4px rgba(80, 80, 80, 0.349);
+}
+
+.disable-scroll {
+    overflow: hidden;
+}
 /* Media Queries */
 @media (width < 992px) {
     .state-of-the-art .blue-wrapper {
