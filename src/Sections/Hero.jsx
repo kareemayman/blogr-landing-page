@@ -18,7 +18,6 @@ export function Hero() {
       if (e.target.matches("p.header-link")) {
         // Select Header Link Menu
         const span = e.target.querySelector("span")
-        console.log(span)
 
         // Hide Header Link Menu If It Was Visible
         if (span.classList.contains("visibility")) {
